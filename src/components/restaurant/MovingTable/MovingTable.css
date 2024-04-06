@@ -1,0 +1,31 @@
+.square{
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(55, 33, 4);
+    background: linear-gradient(45deg, #854c30, #6a490c 15%, #854c30 30%, #b37b52 45%, #854c30 60%, #b37b52 75%, #854c30);
+    border-radius: 5px;
+    position: absolute;
+    cursor: move;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select {
+    z-index:5;
+}
+.number{
+    position: absolute;
+    top:-10px;
+    left:-10px;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: azure;
+    z-index: 2;
+    border: 1px solid rgb(55, 33, 4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

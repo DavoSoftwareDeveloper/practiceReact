@@ -1,0 +1,44 @@
+.data-ranges{
+    width: 500px;
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.chart-input-container{
+    display: flex;
+    justify-content: space-around;
+}
+.chart-input-container > input{
+    width: 300px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.chart-input-container > input::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, #1d464d 0%,#1d464d var(--track-value),#adbeca var(--track-value), #adbeca);
+    border-radius: 0.5rem;
+    height: 1rem;  
+ }
+
+ .chart-input-container > input::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+     appearance: none;
+     margin-top: -8px; /* Centers thumb on the track */
+  
+     /*custom styles*/
+     background-color: #5cd5eb;
+     height: 2rem;
+     width: 0.5rem;
+     border-radius: 0.5rem;
+     z-index:2
+ }
+
+ .chart-input-container > input:focus::-webkit-slider-thumb {   
+    border: 1px solid #053a5f;
+    outline: 1px solid #053a5f;
+    outline-offset: 0.005rem; 
+  }
+ 

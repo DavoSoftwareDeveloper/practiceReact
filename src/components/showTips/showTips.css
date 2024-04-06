@@ -1,0 +1,22 @@
+.counter-tip-container {
+    position: absolute;
+    top:-15%;
+    left: 80%;
+    width: 100%;
+    height: auto;
+    background-color: bisque;
+    border: 1px solid rgb(232, 193, 144);
+    color: rgb(128, 92, 47);;
+    padding: 5px;
+    border-radius: 10px;
+    z-index: 10;
+  }
+  .tip-frame{
+    position: relative;
+    width: 100%; /* 100% del ancho menos el padding izquierdo y derecho del padre */
+    height: 100%;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    z-index:5;
+  }
